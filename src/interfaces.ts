@@ -39,6 +39,7 @@ export interface AccessToken {
 export interface GetAuthURLOptions {
   screenHint?: 'sign-up' | 'sign-in';
   returnPathname?: string;
+  redirectUri?: string;
 }
 
 export interface AuthkitMiddlewareAuth {
